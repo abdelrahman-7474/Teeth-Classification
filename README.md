@@ -25,12 +25,12 @@ Additionally, we developed a **Graphical User Interface (GUI)** for real-time im
 
 ## 🗂️ Project Structure  
 
-📂 Teeth-Disease-Classification
-┣ 📓 Teeth_Classification.ipynb # Custom CNN model
-┣ 📓 Teeth_Classification_transferLearning.ipynb # Transfer learning approach
-┣ 📂 teeth.py # GUI implementation (not upload weights due to size)
-┣ 📂 dataset # Dataset (not uploaded due to size)
-┣ 📂 results # Saved plots, confusion matrices, reports
+-📂 Teeth-Disease-Classification
+-┣ 📓 Teeth_Classification.ipynb # Custom CNN model
+-┣ 📓 Teeth_Classification_transferLearning.ipynb # Transfer learning approach
+-┣ 📂 teeth.py # GUI implementation (not upload weights due to size)
+-┣ 📂 dataset # Dataset (not uploaded due to size)
+-┣ 📂 results # Saved plots, confusion matrices, reports
 
 
 ---
@@ -55,14 +55,25 @@ Additionally, we developed a **Graphical User Interface (GUI)** for real-time im
 
 ---
 
-## 📊 Results  
+### 🧪 Test Accuracy Comparison  
 
-### Confusion Matrix Example  
-![Confusion Matrix](results/confusion_matrix.png)  
+| Model                     | Test Accuracy |
+|---------------------------|---------------|
+| Custom CNN (from scratch) | 92.41%        |
+| Transfer Learning (VGG16) |  98.74%       |
 
-### Precision & Recall Comparison  
-![Precision Recall](results/precision_recall.png)  
+## 📊 Results 
 
+### Confusion Matrix Results  
+<p align="center">
+  <img src="results/cnn_cm.png" alt="Scratch Confusion Matrix" width="45%"/>
+  <img src="results/transfer_learning_cm.png" alt="transfer learning Confusion Matrix" width="45%"/>
+</p>
+### Precision & Recall Results  
+<p align="center">
+  <img src="results/cnn_metric.png" alt="Scratch Precision Recall" width="45%"/>
+  <img src="results/transfer_lreaning_metric.png" alt="Transfer Learning  Precision Recall" width="45%"/>
+</p>
 ---
 
 ## 🖥️ GUI  
