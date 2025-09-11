@@ -25,12 +25,12 @@ Additionally, we developed a **Graphical User Interface (GUI)** for real-time im
 
 ## 🗂️ Project Structure  
 
--📂 Teeth-Disease-Classification
--┣ 📓 Teeth_Classification.ipynb # Custom CNN model
--┣ 📓 Teeth_Classification_transferLearning.ipynb # Transfer learning approach
--┣ 📂 teeth.py # GUI implementation (not upload weights due to size)
--┣ 📂 dataset # Dataset (not uploaded due to size)
--┣ 📂 results # Saved plots, confusion matrices, reports
+- 📂 Teeth-Disease-Classification  
+  - 📓 Teeth_Classification.ipynb # Custom CNN model  
+  - 📓 Teeth_Classification_transferLearning.ipynb # Transfer learning approach  
+  - 📂 teeth.py # GUI implementation (not upload weights due to size)  
+  - 📂 dataset # Dataset (not uploaded due to size)  
+  - 📂 results # Saved plots, confusion matrices, reports  
 
 
 ---
